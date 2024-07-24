@@ -1,0 +1,906 @@
+* {
+  font-family: "Inter", sans-serif !important;
+}
+body {
+  font-family: "Inter", sans-serif !important;
+}
+.bg-image {
+  background: var(--primary-color) !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+.doctor_video_img {
+  position: absolute;
+  height: 25%;
+  top: 70%;
+  left: 19rem;
+}
+.css-kt1hgc {
+  overflow: hidden !important;
+}
+.custom_vheight {
+  height: calc(100vh - 160px);
+}
+.doctor-image {
+  opacity: 0.2;
+}
+.horizontal-lines {
+  text-align: center;
+  position: relative;
+}
+.horizontal-lines .line {
+  width: 50% !important;
+  height: 1px;
+  background-color: #ededed;
+  margin: 10px 0;
+}
+.horizontal-lines .or {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 0 10px;
+  font-size: 14px;
+}
+.css-11dd937 {
+  border: none !important;
+}
+.custom-radius {
+  border-radius: 50px !important;
+}
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+  border-radius: 50px !important;
+}
+.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+  font-size: 0.8rem !important;
+}
+.css-1n4twyu-MuiInputBase-input-MuiOutlinedInput-input {
+  height: 1.8rem !important;
+}
+.css-1pysi21-MuiFormLabel-root-MuiInputLabel-root {
+  font-size: 0.8rem !important;
+  padding: 5px 0 0 0 !important ;
+}
+/* .css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root {
+  color: var(--primary-color) !important;                       Checkbox global color
+} */
+/* .css-nxo287-MuiInputBase-input-MuiOutlinedInput-input {
+  padding: 10px 14px 8px 14px !important;
+  margin-bottom: 4px !important;
+} */
+
+.fc-col-header-cell {
+  background-color: #f2f2f2;
+}
+.fc-col-header-cell-cushion {
+  color: #2e3130 !important;
+  font-weight: 500 !important;
+}
+.event-content {
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+}
+.status-pending {
+  background-color: #fbbe84;
+}
+.status-completed {
+  background-color: #5dd669;
+}
+.status-canceled {
+  background-color: var(--primary-color);
+}
+.fc-h-event {
+  background-color: white !important;
+}
+.fc .fc-daygrid-day.fc-day-today {
+  background-color: #fbbe84 !important;
+}
+.fc-button-primary.fc-button-active {
+  border-radius: 50px !important;
+  color: var(--primary-color) !important;
+  background: #ffe5e5;
+}
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root.Mui-selected {
+  background-color: var(--primary-color) !important;
+}
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root.Mui-selected:hover {
+  background-color: var(--primary-color) !important;
+  color: white !important;
+}
+.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root:hover {
+  /* background-color: var(--primary-color) !important; */
+
+  background-color: var(--primary-peach) !important;
+  color: var(--primary-color) !important;
+}
+.css-md26zr-MuiInputBase-root-MuiOutlinedInput-root {
+  border-radius: 50px !important;
+}
+.css-1ualgfl-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root {
+  border-radius: 50px !important;
+}
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+  padding: 12.5px 14px !important;
+}
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+  padding: 12px 14px !important;
+}
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-completed {
+  color: var(--primary-color) !important;
+}
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-active {
+  color: #cccccc !important;
+}
+.myCustomLogo {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.css-k4qjio-MuiFormHelperText-root.Mui-error {
+  color: var(--primary-color) !important;
+}
+.custom-password-radius {
+  border-radius: 50px !important;
+}
+/* .css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root {
+  border-radius: 10px !important;
+} */
+.pagination {
+  display: flex;
+  gap: 10px;
+}
+.page-link {
+  border-radius: 5px;
+}
+.css-1ql5ao2-MuiPaper-root {
+  margin-bottom: 0px !important;
+}
+.MuiTableCell-head {
+  background: var(--primary-color) !important;
+  color: white !important;
+}
+.css-118d58w-MuiButtonBase-root-MuiTableSortLabel-root .MuiTableSortLabel-icon {
+  color: white !important;
+}
+
+div:where(.swal2-container) div:where(.swal2-icon).swal2-warning {
+  border-color: var(--secondary-color) !important;
+  color: var(--secondary-color) !important;
+}
+.main_sigin {
+  padding-top: 3rem;
+}
+.css-1q6at85-MuiInputBase-root-MuiOutlinedInput-root {
+  border-radius: 50px !important;
+}
+.css-2ehmn7-MuiInputBase-root-MuiOutlinedInput-root {
+  border-radius: 50px !important;
+}
+
+/* Custom color classes */
+.dark-gray-600 {
+  color: #666666;
+}
+.dark-gray-200 {
+  color: #cccccc;
+}
+.dark-gray-500 {
+  color: #595959 !important;
+}
+.dark-gray-500-bg {
+  background-color: #595959;
+}
+.dark-gray-50-bg {
+  background-color: #f2f2f2;
+}
+.bright-gray-100 {
+  color: #e1e5ea;
+}
+.bright-gray-50 {
+  color: #f0f2f5;
+}
+.bright-gray-50-bg {
+  background-color: #f0f2f5 !important;
+}
+.bright-gray-300 {
+  color: #a4b0c1;
+}
+.dark-gray-400 {
+  color: #999999 !important;
+}
+
+.forgot-password-color {
+  color: #3172f0;
+}
+.already-account {
+  color: #b3b3b3;
+}
+.text_white {
+  color: white !important;
+}
+.bg_white {
+  background-color: white !important;
+}
+.invoice-amount-bgcolor {
+  background-color: #fbfbfb;
+}
+.invoice-amount-color {
+  color: #333333;
+}
+.phone-icon-color {
+  background-color: #ea4335;
+}
+
+.generic-name-color {
+  color: #2a2a2a;
+}
+.generic-name-profession-color {
+  color: #b3b3b3;
+}
+
+/* font sizes */
+.font-12 {
+  font-size: 12px !important;
+}
+.font-14 {
+  font-size: 14px !important;
+}
+.font-15 {
+  font-size: 15px !important;
+}
+.font-16 {
+  font-size: 16px !important;
+}
+.font-18 {
+  font-size: 18px !important;
+}
+.font-20 {
+  font-size: 20px !important;
+}
+.font-22 {
+  font-size: 22px !important;
+}
+.font-24 {
+  font-size: 22px !important;
+}
+.font-27 {
+  font-size: 27px !important;
+}
+.font-30 {
+  font-size: 30px !important;
+}
+
+/* font weights */
+.fw-400 {
+  font-weight: 400 !important;
+}
+.fw-500 {
+  font-weight: 500 !important;
+}
+.fw-600 {
+  font-weight: 600 !important;
+}
+.fw-700 {
+  font-weight: 700 !important;
+}
+.fw-800 {
+  font-weight: 800 !important;
+}
+
+/* padding classes */
+.padding-top-10 {
+  padding-top: 10px;
+}
+.padding-top-12 {
+  padding-top: 12px;
+}
+.padding-top-14 {
+  padding-top: 14px;
+}
+.padding-top-16 {
+  padding-top: 16px;
+}
+.padding-top-20 {
+  padding-top: 20px;
+}
+.padding-top-24 {
+  padding-top: 24px;
+}
+.padding-top-26 {
+  padding-top: 26px;
+}
+.padding-top-30 {
+  padding-top: 30px;
+}
+.padding-top-34 {
+  padding-top: 34px !important;
+}
+.padding-top-36 {
+  padding-top: 36px !important;
+}
+
+/* margin classes */
+.margin-top-12 {
+  margin-top: 12px !important;
+}
+.margin-top-14 {
+  margin-top: 14px !important;
+}
+.margin-top-16 {
+  margin-top: 16px !important;
+}
+.margin-top-18 {
+  margin-top: 18px !important;
+}
+.margin-top-20 {
+  margin-top: 20px !important;
+}
+.margin-top-22 {
+  margin-top: 22px !important;
+}
+.margin-top-24 {
+  margin-top: 24px !important;
+}
+.margin-top-30 {
+  margin-top: 30px !important;
+}
+.border-radius-50 {
+  border-radius: 50px !important;
+}
+/* .css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+ padding: 0px 35px !important;
+  border-radius: 10px 10px 0px 0px !important;
+  margin: 0px 10px !important;
+  text-transform: capitalize !important;
+} */
+ .parent_tabs .css-heg063-MuiTabs-flexContainer{
+  gap: 20px;
+ }
+.css-1gsv261 {
+  border-bottom: none !important;
+}
+.text-transform-capitalize {
+  text-transform: capitalize !important;
+}
+.css-1pysi21-MuiFormLabel-root-MuiInputLabel-root {
+  color: var(--label-color) !important;
+}
+.lastName_removePadding {
+  padding-right: 0px !important;
+}
+.css-1a7sleo-MuiBackdrop-root {
+  opacity: 0.8 !important;
+}
+
+/* media queries */
+@media screen and (max-width: 1350px) {
+  .listing-header {
+    padding-left: 5rem !important;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .listing-header {
+    padding-left: 7rem !important;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .custom-remove-flex {
+    display: block;
+  }
+  .bg-image {
+    display: none;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .custom-patient-button {
+    left: 0px !important;
+  }
+  .search-width.css-1cbu6k9-MuiFormControl-root-MuiTextField-root
+    .MuiOutlinedInput-root {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .new_large_spacing {
+    flex-direction: column !important;
+  }
+  .responsive_preshead {
+    justify-content: start !important;
+    align-items: start !important;
+  }
+  .prescription-dblock {
+    justify-content: start !important;
+    align-items: start !important;
+  }
+  /* .confirm_removePadding {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+  } */
+  .search-width {
+    left: 0px !important;
+  }
+  .search-width.css-mwjubi-MuiFormControl-root-MuiTextField-root
+    .MuiOutlinedInput-root {
+    width: 100% !important;
+  }
+  .customStyling {
+    width: 100% !important;
+  }
+  .doctor_video_img {
+    top: 30%;
+    height: 15%;
+    left: 30rem;
+  }
+  .lastName_removePadding {
+    padding-left: 0px !important ;
+  }
+  /* .custom_removePadding {
+    padding-left: 0px !important ;
+    margin-left: 0px !important;
+  } */
+  .responsive_icons {
+    width: 50px !important;
+    height: 30px !important;
+  }
+}
+@media screen and (max-width: 992px) {
+  .listing-header {
+    padding-left: 3rem !important;
+  }
+}
+@media screen and (max-width: 900px) {
+  .centralize_icons {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+}
+@media screen and (max-width: 768px) {
+ 
+  .chat_textarea_space{
+    margin-top: 10rem;
+  }
+  .parent_tabs_chat .css-cjctlb-MuiButtonBase-root-MuiTab-root{
+    max-width: 100% !important;
+  }
+  .parent_detail_tabs .css-cjctlb-MuiButtonBase-root-MuiTab-root {
+    max-width: 100% !important;
+  }
+  .responsive_role {
+    margin-top: 8rem;
+  }
+  .modalTitle {
+    font-size: 15px !important;
+  }
+  .custom_width_logIn {
+    width: 75% !important;
+  }
+  .MuiTabs-flexContainer {
+    display: flex;
+    flex-direction: column !important;
+  }
+  .doctor_video_img {
+    top: 25%;
+    height: 12%;
+    left: 20rem;
+  }
+  .sidebar-menu > ul > li > a {
+    width: 200px;
+  }
+  .main_forgetPassword {
+    font-size: 22px !important;
+  }
+  .lastName_removePadding {
+    padding-left: 0px !important ;
+  }
+  /* .custom_removePadding {
+    padding-left: 0px !important ;
+    margin-left: 0px !important;
+    margin-top: 10px !important;
+  } */
+  .videoImage-responsive {
+    height: 75% !important;
+  }
+
+  .test-new {
+    --Grid-columns: 6 !important;
+  }
+  .sidebar {
+    background: white !important;
+  }
+  .user-menu {
+    width: 94%;
+    box-shadow: none !important;
+  }
+}
+@media screen and (max-width: 650px) {
+  .doctor_video_img {
+    top: 25%;
+    height: 8%;
+    left: 0rem !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .search-width.css-18u31sj-MuiFormControl-root-MuiTextField-root .MuiOutlinedInput-root{
+    width: 100% !important;
+  }
+  .responsive_modal_patient{
+    font-size: 11px !important;
+  }
+  .create_schedule_padding {
+    padding-top: 0px !important;
+  }
+  .reason_text_font {
+    font-size: 14px !important;
+  }
+  .custom_apply_permission {
+    padding-top: 5px;
+  }
+  .invoice_wrap {
+    flex-direction: column;
+    justify-content: start;
+    width: 100%;
+  }
+  .invoice_wrap_2 {
+    flex-direction: column;
+    align-items: start;
+  }
+  .search-width.css-edqtwr-MuiFormControl-root-MuiTextField-root
+    .MuiOutlinedInput-root {
+    width: 100%;
+  }
+  .doctorName-small {
+    font-size: 14px !important;
+  }
+  .expandText-small {
+    font-size: 12px !important;
+  }
+  .custom-patient-button {
+    width: 100% !important;
+  }
+  /* .css-edqtwr-MuiFormControl-root-MuiTextField-root .MuiOutlinedInput-root {
+    width: 100% !important;
+  } */
+  .picker-button {
+    flex-direction: column;
+    width: 100%;
+  }
+  .custom-patient-picker {
+    flex-direction: column;
+    align-items: start;
+  }
+  .search_button_all {
+    flex-direction: column;
+    width: 100%;
+  }
+  .custom-patient-button {
+    margin-bottom: 20px;
+  }
+  .profile-dropmenu {
+    width: 150px;
+  }
+  .header_avatar {
+    width: 40px;
+  }
+  .generic-header-label {
+    font-size: 13px !important;
+  }
+  .responsive-font {
+    font-size: 12px !important;
+  }
+  .listing-header {
+    padding-left: 1rem !important;
+  }
+  .icon_size {
+    font-size: 16px !important;
+  }
+  .main_forgetPassword {
+    font-size: 20px;
+  }
+  .horizontal-lines .or {
+    font-size: 12px;
+  }
+  .log_inBtn {
+    font-size: 12px;
+  }
+  .if_not_account {
+    font-size: 12px !important;
+  }
+  .if_not_accountEnd {
+    font-size: 12px;
+  }
+  .Sign_Up {
+    font-size: 13px;
+  }
+  .responsive_svg {
+    width: 30px !important;
+  }
+  .responsive_svgTwo {
+    width: 150px !important;
+  }
+  .main_sigin {
+    font-size: 22px;
+  }
+  .videoImage-responsive {
+    height: 50% !important;
+  }
+  .prescription-dblock {
+    display: block;
+  }
+  .search-width {
+    width: 100% !important;
+    margin-left: 0px !important;
+    margin-bottom: 20px !important;
+    left: 0rem !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  .custom-patientModal-width {
+    width: 300px !important;
+  }
+  .user-menu {
+    position: relative;
+    bottom: 5rem;
+  }
+  .listing-header {
+    font-size: 15px !important;
+  }
+}
+@media screen and (max-width: 475px) {
+  .responsive-gap {
+    gap: 2px !important;
+  }
+}
+@media screen and (max-width: 426px) {
+  .responsive_doctor_chat{
+    height: 100px;
+  }
+  .responsive_divider {
+    height: 100px !important;
+  }
+  .forgot-password-color {
+    font-size: 11px !important;
+  }
+  .doctor_video_img {
+    top: 15%;
+    height: 8%;
+    left: 0rem !important;
+  }
+  .picker-button {
+    flex-direction: column;
+  }
+  .custom-patient-picker {
+    display: block;
+    width: 100%;
+  }
+
+  .profile-dropmenu {
+    inset: -25px auto auto 0px !important;
+  }
+
+  .main_forgetPassword {
+    font-size: 18px !important;
+  }
+  .main_sigin {
+    padding-top: 20px !important;
+  }
+  .if_not_account {
+    font-size: 10px !important;
+  }
+  .responsive-gap {
+    gap: 0px !important;
+  }
+}
+@media screen and (max-width: 320px) {
+  .if_not_account {
+    font-size: 9px !important;
+  }
+}
+@media screen and (max-width: 330px) {
+  .user-menu {
+    position: relative;
+    bottom: 0rem;
+    left: 20px;
+    top: 5px;
+  }
+  .responsive-gap {
+    flex-wrap: wrap;
+    margin-top: 3rem;
+  }
+}
+#sidebar {
+  background: white;
+}
+.custom_pagination {
+  position: relative;
+  bottom: 35px;
+  z-index: 99999;
+}
+
+/* .css-10o2lyd-MuiStack-root {
+  padding-top: 0px !important;
+} */
+
+.css-947ywi-MuiTypography-root {
+  display: none;
+}
+.css-1atu56z-MuiPaper-root {
+  box-shadow: none !important;
+}
+#forget-email {
+  padding: 10px !important;
+}
+
+.css-ehv1ra-MuiTable-root {
+  border-spacing: 0px 10px !important;
+}
+.generic-header-label {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.MuiStack-root {
+  position: relative;
+  bottom: 6px;
+}
+.generic_boxShadow {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.css-nxo287-MuiInputBase-input-MuiOutlinedInput-input {
+  font-size: 10px !important;
+}
+.css-10o2lyd-MuiStack-root {
+  overflow: hidden !important;
+}
+
+.no_boxShadow {
+  box-shadow: none !important;
+  border: 1px solid #e6e6e6 !important;
+}
+.css-1086bdv-MuiPaper-root-MuiAccordion-root::before {
+  display: none;
+}
+.css-eqpfi5-MuiAccordionSummary-content {
+  margin: 8px 0 !important;
+}
+
+.MuiTableCell-body:first-child {
+  border-radius: 10px 0px 0px 10px !important;
+}
+.MuiTableCell-body:last-child {
+  border-radius: 0px 10px 10px 0px !important;
+}
+.sidebar-span-style {
+  text-wrap: balance;
+ 
+}
+.accordion-spacing {
+  padding: 8px 16px 30px !important;
+}
+.css-10gei56 {
+  box-shadow: none !important;
+}
+.page-link {
+  background-color: #f5f5f5;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+}
+.css-bhp9pd-MuiPaper-root-MuiCard-root {
+  box-shadow: none !important;
+}
+.MuiTableCell-head:first-child {
+  border-radius: 10px 0px 0px 10px !important;
+}
+.MuiTableCell-head:last-child {
+  border-radius: 0px 10px 10px 0px !important;
+}
+.css-cveggr-MuiListItemIcon-root {
+  min-width: 15px !important;
+}
+/* .custom-button:active {
+  color: #ff6060 !important;
+  border: 2px solid #ff6060 !important;
+} */
+.custom-button:active {
+  color: #ff6060 !important;
+  border: 2px solid #ff6060 !important;
+}
+.button_upload_profile {
+  display: flex !important;
+  justify-content: flex-start !important;
+  text-transform: capitalize !important;
+  font-weight: 400 !important;
+}
+.pagination {
+  z-index: 1000 !important;
+}
+.css-3bmhjh-MuiPaper-root-MuiPopover-paper {
+  border-radius: 15px !important;
+}
+.notification_list {
+  font-weight: 600 !important;
+  color: #1a1a1a !important;
+  font-size: 14px !important;
+}
+.notification_description {
+  color: #999999 !important;
+  font-size: 12px !important;
+  font-weight: 400 !important;
+}
+.notification_header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.notification_header_text {
+  font-size: 12px !important;
+  font-weight: 400 !important;
+  color: #999999 !important;
+}
+
+.textarea_radius {
+  border-radius: 50px !important;
+}
+/* .css-1aquho2-MuiTabs-indicator {
+  background-color: transparent !important;
+} */
+/* .css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+  min-height: 35px !important;
+} */
+/* .css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  color: #ff3333 !important;
+  border: 1px solid #ff3333 !important;
+} */
+/* .css-8ewcdo-MuiInputBase-root-MuiOutlinedInput-root{
+  border-radius: 50px !important;
+} */
+.tabs_box_parent .css-19kzrtu {
+  padding: 24px 0px !important;
+}
+.chat_avatar_size {
+  height: 30px !important;
+  width: 30px !important;
+}
+.text_area_radius .css-8ewcdo-MuiInputBase-root-MuiOutlinedInput-root {
+  border-radius: 10px !important;
+}
+.generic_boxShadow2 {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.modalTitle {
+  color: #fbbe84 !important;
+}
+.MuiTabs-indicator {
+  display: none;
+}
+.parent_detail_tabs .css-yrmh0w-MuiTabs-root .Mui-selected {
+  border: 1px solid #f99639;
+  border-bottom: 0;
+}
+.linear_gradient_chat{
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.2) 0%,
+    rgba(0, 0, 0, 0.5952) 59.52%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  height: 50px;
+  width: 100%;
+  border-radius: 0px 0px 10px 10px;
+  
+}
+.soap_tabs{
+  background: #FF8080 !important;
+}
+.modalTitle {
+  color: #FBBE84; /* Customize the color */
+  font-size: 1.5rem; /* Customize the font size */
+  padding: 30px 30px 0px 30px;
+}
+.modalDescription{
+  padding: 0px 30px;
+}
